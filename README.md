@@ -18,3 +18,6 @@ cas, l'accès en entrée est provisoirement bloqué jusqu'à ce qu'un train sort
 donne la priorité à un des trains voulant entrer afin de soulager le réseau général. Toutefois,
 si l'accès en entrée est bloqué faute de voie disponible, la priorité est au contraire donnée à
 un train qui veut sortir.
+
+
+![giphy](https://user-images.githubusercontent.com/62743238/142431976-d903749c-82dc-4a32-aaf4-2c1c5b8fa997.gif)
