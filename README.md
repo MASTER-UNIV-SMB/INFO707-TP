@@ -1,5 +1,5 @@
 ## INFO707-TP
-#Gestion de parking train.
+# Gestion de parking train.
 On veut réaliser un système de gestion de zones de stationnement dans une gare ferroviaire. Tout
 stationnement se fait dans une voie de garage qui ne peut accueillir qu'un seul train. Les voies de
 garage sont regroupées dans une plateforme. Cette dernière contient un nombre n de voies. L'accès
