@@ -1,3 +1,15 @@
 .idea
 out
 INFO707-TP.iml
+/bin/
+
+# IntelliJ project files 
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# eclipse project file
+.settings/
+.classpath
+.project
