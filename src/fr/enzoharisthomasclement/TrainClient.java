@@ -18,7 +18,7 @@ public class TrainClient {
                         new OutputStreamWriter(socket.getOutputStream())),
                 true);
 
-        String str = "bonjour";
+        String str = "bonjour!";
         for (int i = 0; i < 10; i++) {
             pred.println(str);          // envoi d'un message
             str = plec.readLine();      // lecture de l'écho
