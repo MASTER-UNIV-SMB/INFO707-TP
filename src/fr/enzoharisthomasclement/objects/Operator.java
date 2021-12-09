@@ -161,6 +161,9 @@ public class Operator {
 
             sb.append("\n");
             sb.append("---------------------------------------------\n");
+            
+            sb.append("(1: Ajouter, 2: Sortir, 3: Sortie et d'entrée) \n");
+            
 
             return sb.toString();
         }catch (InterruptedException e){

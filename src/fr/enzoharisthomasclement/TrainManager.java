@@ -76,7 +76,7 @@ public class TrainManager implements Runnable {
 
             if(action == 2){
                 System.out.println("");
-                System.out.println("Sur quel voie voulez-vous sortir le train ? (1-3)");
+                System.out.println("Sur quelle voie voulez-vous sortir le train ? (1-3)");
 
                 int way = myInput.nextInt();
 
