@@ -1,11 +1,13 @@
 package fr.enzoharisthomasclement.objects;
 
-public class Voie {
+import java.io.Serializable;
+
+public class Way implements Serializable {
 
     private int numeroVoie;
     private Train train;
 
-    public Voie(int numeroVoie) {
+    public Way(int numeroVoie) {
         this.numeroVoie = numeroVoie;
     }
 
@@ -21,7 +23,19 @@ public class Voie {
         return train;
     }
 
+    public boolean isAvailable() {
+        return train == null;
+    }
+
     public void setTrain(Train train) {
         this.train = train;
+    }
+
+    @Override
+    public String toString() {
+        return "Voie{" +
+                "numeroVoie=" + numeroVoie +
+                ", train=" + train +
+                '}';
     }
 }

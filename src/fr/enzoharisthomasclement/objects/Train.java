@@ -1,22 +1,24 @@
 package fr.enzoharisthomasclement.objects;
 
+import java.io.Serializable;
 import java.util.UUID;
 
-public class Train {
+public class Train implements Serializable {
+    private static int index = 1;
 
-    private UUID id;
+    private int id;
     private int name;
 
-    public Train(UUID id, int name) {
-        this.id = id;
+    public Train(int name) {
+        this.id = index++;
         this.name = name;
     }
 
-    public UUID getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -26,5 +28,10 @@ public class Train {
 
     public void setName(int name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Train #" + this.getId() + " (" + this.getName() + ")";
     }
 }
