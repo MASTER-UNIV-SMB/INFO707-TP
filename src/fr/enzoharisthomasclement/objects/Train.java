@@ -32,6 +32,6 @@ public class Train implements Serializable {
 
     @Override
     public String toString() {
-        return "Train #" + this.getId() + " (" + this.getName() + ")";
+        return "Train #" + this.getId();
     }
 }
